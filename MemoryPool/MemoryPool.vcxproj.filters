@@ -15,7 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MemoryPool.cpp">
+    <ClInclude Include="allocator.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myStack.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="myVector.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
